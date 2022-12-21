@@ -1,0 +1,25 @@
+a.link1:hover{
+    color:red
+}
+
+input:focus{
+    background-color: red;
+}
+
+table, tr, td,th {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(2, 222, 68);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(254, 14, 14);
+}
+
+ .demo p:nth-child(3){
+    background-color: black;
+    color: white;
+    max-width: 490px;
+}
