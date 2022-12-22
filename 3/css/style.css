@@ -1,0 +1,14 @@
+body{
+    background-image:url("/images/back2.png") ;
+    background-repeat:no-repeat;
+    background-size: 20%;
+    background-position:left ;
+    
+    
+}
+
+.gradient-style{
+    height: 400px;
+    width: 50%;
+    background-image: radial-gradient(circle,red,green,blue);
+}
