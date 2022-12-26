@@ -1,0 +1,54 @@
+.green{
+    height: 250px;
+    max-width: 400px;
+    background-color: green;
+    position: relative;
+    margin: 0 auto;
+}
+
+.red{
+    height: 120px;
+    max-width: 120px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.header{
+    text-align: center;
+    color:red ;
+    
+}
+.bamboo{
+    width: 10px;
+    height: 500px;
+    background-color: black;
+    top: -17px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.box{
+    width: 79px;
+    height: 41px;
+    background-color: black;
+    position: absolute;
+    border-radius: 13px;
+    bottom: -262px;
+    left: -34px;
+}
+
+.square{
+    width: 650px;
+    height: 620px;
+    border: 2px solid;
+    padding: 0px;
+    margin: 0 auto;
+    
+} 
