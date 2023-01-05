@@ -1,0 +1,17 @@
+.flex-container{
+    background-color:red;
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction:row ;*/
+    flex-flow: wrap row;
+    justify-content:center;
+    height: 300px;
+    align-items: center;
+}
+
+.flex-container > div{
+font-size: 35px;
+margin: 10px;
+padding: 20px;
+background-color:greenyellow;
+}
