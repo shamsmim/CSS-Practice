@@ -1,0 +1,15 @@
+h1{
+    text-shadow: 5px 5px 5px red;
+    text-align: center;
+    
+}
+
+div{
+    width: 200px;
+    background-color:greenyellow;
+    border: 2px solid red;
+    box-shadow: 20px 15px 5px rgba(48, 44, 44, 0.616);
+    margin: auto;
+    
+}
+
