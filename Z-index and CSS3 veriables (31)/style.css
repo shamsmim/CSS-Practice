@@ -1,0 +1,22 @@
+:root{
+    --primary-color: greenyellow;
+    --secondary-color: red;
+}
+
+div{
+    height: 250px;
+    width: 250px;
+}
+
+#div1{
+    background: var(--primary-color);
+    
+    position: absolute;
+    z-index: 1;
+}
+#div2{
+    background-color: var(--secondary-color);
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
