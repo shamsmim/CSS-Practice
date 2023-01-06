@@ -55,13 +55,14 @@
 .card-containers{
     box-sizing: border-box;
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("https://wallup.net/wp-content/uploads/2017/03/28/363382-trees-sunlight-dark-nature-748x421.jpg" );
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 8%;
-    background-image: url("https://wallup.net/wp-content/uploads/2017/03/28/363382-trees-sunlight-dark-nature-748x421.jpg" );
-    
-
 }
 
 
