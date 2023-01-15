@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid View</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            padding: 1% 5%;
+            background-color:  #f3971b;
+            color: black;
+            text-align: center;
+        }
+        .nav-menu{
+            padding: 1% 5%;
+            background-color: #292929;
+            color: white;
+            
+        }
+
+        .nav-menu a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            display:block;
+        }
+
+        .main{
+            padding: 1% 5%;
+            background-color:#c2c0c3;
+        }
+
+        .aside{
+            padding: 1% 5%;
+            background-color: gray;
+            text-align: center;
+        }
+
+        .footer{
+            background-color: #292929;
+            color: #f3971b;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* For Desktop */
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}
+
+        [class*="col-"]{
+            float: left;
+            padding: 10px;
+        }
+
+        .row::after{
+            content: '';
+            clear: both;
+            display: table;
+        }
+
+        @media screen and (max-width:768px) {
+            
+
+            [class*="col-"]{
+                width: 100%;
+            }
+
+            .nav-menu a{
+                text-align: center;
+                background-color:#f3971b;
+                margin: 10px 0;
+            }
+            
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Ash Shams Mim</h1>
+    </div>
+
+    <div class="row">
+        <div class="nav-menu col-2">
+            <a href="#">Home</a>
+            <a href="#">Tutorail</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="main col-7">
+            <h1>I am a Web Designer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, laboriosam temporibus officia atque consequatur veniam!</p>
+            <p>Dolores dolore magna ut erat clita invidunt nonumy amet eos et, dolor invidunt stet lorem amet dolor ea sit vero eirmod. Diam kasd sed lorem dolor, sit sed sea et et clita lorem sed consetetur, sed aliquyam ut sed dolores labore sit et, sed dolor dolor ut sed kasd eos labore, tempor et est dolore stet lorem sea sed aliquyam. Ut ea dolore sit est sea. Sea dolor justo justo sed. Dolore diam eirmod at dolore diam elitr dolor kasd magna, labore voluptua ipsum et ut, diam lorem ut accusam vero labore. Accusam amet sit et stet consetetur magna justo.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam fugit fuga cumque mollitia atque, odit tempora! Molestiae hic illo quis quod laborum, a earum voluptate sapiente assumenda inventore nihil consequuntur quasi mollitia nobis? Ab ducimus ullam sed blanditiis consectetur doloribus dolor saepe accusantium ea. Quas accusantium maiores beatae earum esse voluptas fugiat quibusdam doloribus ipsam. Sequi amet aliquid perferendis eligendi aut rerum? Repellat odit consequuntur eum quod suscipit id quas nam doloribus maiores nostrum, debitis ipsa eaque tempora eveniet dignissimos, voluptatem est mollitia voluptatum voluptas delectus aperiam doloremque amet sequi hic. Rem itaque fugiat ex quia, laborum officia neque dignissimos.</p>
+        
+        </div>
+
+        <div class="aside col-3">
+            <h2>What I love?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta suscipit nulla, sapiente excepturi molestias? </p>
+
+            <h2>What I do?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quaerat aspernatur dolore a minima ipsum!</p>
+
+            <h2>What I don't Do?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempora asperiores amet qui iure neque.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; Study with Mim 2023. Developed By Ash Shams Mim
+    </div>
+
+</body>
+</html>
