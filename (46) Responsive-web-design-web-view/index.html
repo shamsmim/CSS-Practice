@@ -10,24 +10,29 @@
         *{
             box-sizing: border-box;
         }
+
         .header{
             padding: 1% 5%;
             background-color:  #f3971b;
             color: black;
             text-align: center;
-        }
+        }    
+
         .nav-menu{
             padding: 1% 5%;
             background-color: #292929;
-            color: white;
+            
             
         }
 
         .nav-menu a{
             color: white;
             text-decoration: none;
+            text-align: center;
+           
             font-size: 1.2rem;
-            padding: 10px;
+            padding: 10px ;
+            
             display:block;
         }
 
@@ -50,19 +55,10 @@
             text-align: center;
         }
 
-        /* For Desktop */
-        .col-1{width: 8.33%;}
-        .col-2{width: 16.66%;}
-        .col-3{width: 25%;}
-        .col-4{width: 33.33%;}
-        .col-5{width: 41.66%;}
-        .col-6{width: 50%;}
-        .col-7{width: 58.33%;}
-        .col-8{width: 66.66%;}
-        .col-9{width: 75%;}
-        .col-10{width: 83.33%;}
-        .col-11{width: 91.66%;}
-        .col-12{width: 100%;}
+        /* For Mobile */
+        [class*="col-"]{
+                width: 100%;
+            }
 
         [class*="col-"]{
             float: left;
@@ -75,19 +71,38 @@
             display: table;
         }
 
-        @media screen and (max-width:768px) {
+        @media screen and (min-width:600px) {
             
+            /* For Tablet */
+        .col-s-1{width: 8.33%;}
+        .col-s-2{width: 16.66%;}
+        .col-s-3{width: 25%;}
+        .col-s-4{width: 33.33%;}
+        .col-s-5{width: 41.66%;}
+        .col-s-6{width: 50%;}
+        .col-s-7{width: 58.33%;}
+        .col-s-8{width: 66.66%;}
+        .col-s-9{width: 75%;}
+        .col-s-10{width: 83.33%;}
+        .col-s-11{width: 91.66%;}
+        .col-s-12{width: 100%;}
+        }
 
-            [class*="col-"]{
-                width: 100%;
-            }
-
-            .nav-menu a{
-                text-align: center;
-                background-color:#f3971b;
-                margin: 10px 0;
-            }
+        @media screen and (min-width:768px) {
             
+            /* For Desktop */
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}
         }
 
 
@@ -103,13 +118,13 @@
     </div>
 
     <div class="row">
-        <div class="nav-menu col-2">
+        <div class="nav-menu col-s-3 col-2">
             <a href="#">Home</a>
             <a href="#">Tutorail</a>
             <a href="#">Contact</a>
         </div>
 
-        <div class="main col-7">
+        <div class="main col-s-8 col-7">
             <h1>I am a Web Designer</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, laboriosam temporibus officia atque consequatur veniam!</p>
             <p>Dolores dolore magna ut erat clita invidunt nonumy amet eos et, dolor invidunt stet lorem amet dolor ea sit vero eirmod. Diam kasd sed lorem dolor, sit sed sea et et clita lorem sed consetetur, sed aliquyam ut sed dolores labore sit et, sed dolor dolor ut sed kasd eos labore, tempor et est dolore stet lorem sea sed aliquyam. Ut ea dolore sit est sea. Sea dolor justo justo sed. Dolore diam eirmod at dolore diam elitr dolor kasd magna, labore voluptua ipsum et ut, diam lorem ut accusam vero labore. Accusam amet sit et stet consetetur magna justo.</p>
@@ -118,7 +133,7 @@
         
         </div>
 
-        <div class="aside col-3">
+        <div class="aside col-s-12 col-3">
             <h2>What I love?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta suscipit nulla, sapiente excepturi molestias? </p>
 
