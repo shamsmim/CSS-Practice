@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Transition</title>
+
+    <style>
+        .main{
+            height: 300px;
+            width: 300px;
+            background-color: tomato;
+            text-align: center;
+            margin: 0 auto;
+            transition: width 2s;
+            
+        }
+
+        h1{
+            font-size: 2rem;
+            transition:font-size 2s;
+        }
+
+        .main:hover{
+            width: 600px;
+        }
+
+        h1:hover{
+            font-size: 3rem;
+            color: white;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="main">
+        <h1>Bangladesh</h1>
+    </div>
+
+</body>
+</html>
